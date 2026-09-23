@@ -1,6 +1,6 @@
 # Market Research Modes
 
-This replicates the method behind several open-source Claude Skills (genli-ai/market-research-skills, birne-sk/claude-skills, ishwarjha/claude-marketing-research-skill, the market-researcher subagent pattern) directly, using web_search/web_fetch — no external install required. Pick the mode that matches what's actually needed; don't default to heavy.
+This replicates the method behind several open-source Claude Skills (genli-ai/market-research-skills, birne-sk/claude-skills, ishwarjha/claude-marketing-research-skill, the market-researcher subagent pattern) directly, using your web search and page-fetch tools (`WebSearch`/`WebFetch` in Claude Code, `web_search`/`web_fetch` in the claude.ai app) — no external install required. Pick the mode that matches what's actually needed; don't default to heavy.
 
 ## Light (default first pass — a few searches, ~10-15 min equivalent)
 - Quick competitor scan: who else solves this problem today, 3–5 names.

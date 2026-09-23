@@ -13,7 +13,7 @@ For each name offered, note: does it work said aloud, is it easily spelled from 
 
 ## Domain & handle check
 
-State plainly that live availability must be checked (a quick web_search or the founder checking directly) before committing — never assert a domain is available without checking, since this changes based on real-time data.
+State plainly that live availability must be checked (a quick web search or the founder checking directly) before committing — never assert a domain is available without checking, since this changes based on real-time data.
 
 ## Tagline
 

@@ -1,7 +1,7 @@
 # Startup Board — AI Startup Advisor for Idea Validation, Lean Canvas & Pitch Decks
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](.claude-plugin/plugin.json)
+[![Version](https://img.shields.io/badge/version-1.0.1-green.svg)](.claude-plugin/plugin.json)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757.svg)](https://github.com/shuvgenai/startup-board)
 
 **Startup Board is a free, open-source Claude Code plugin that helps founders validate a startup idea before they build it.** One AI advisor — trained on eight proven startup frameworks like *The Mom Test*, *Lean Canvas*, and *Jobs-to-be-Done* — interviews you one question at a time, tells you honestly where your idea stands, and then helps you plan the MVP, launch, brand, and pitch.

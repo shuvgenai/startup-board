@@ -26,7 +26,7 @@ This whole skill is a conversation, not a report generator. At every phase:
 
 - Ask **exactly one question per turn.** Never send a batch, never number a list of questions, never say "first tell me X, then Y, then Z."
 - **Format every question as a visually distinct box**, separate from any lead-in commentary, so the founder can immediately see what's being asked versus where to answer:
-  - When the answer has a short enumerable set of options (stage, B2B/B2C, industry guess, yes/no, depth of research, which document next), use `ask_user_input_v0` — it renders as a tappable box with an actual answer area built in. This is the default whenever the answer fits a handful of clean options.
+  - When the answer has a short enumerable set of options (stage, B2B/B2C, industry guess, yes/no, depth of research, which document next), use your environment's multiple-choice question tool — `AskUserQuestion` in Claude Code, `ask_user_input_v0` in the claude.ai app — which renders as a tappable box with an actual answer area built in. This is the default whenever the answer fits a handful of clean options. If no such tool is available, fall back to the free-text blockquote format below and list the options inside the box.
   - When the question needs a free-text explanation, put the question itself inside a markdown blockquote so it reads as a boxed prompt, then explicitly invite the answer below it on its own line, e.g.:
 
     > **What's the one thing your product does that people can't easily do today?**
@@ -68,7 +68,7 @@ Score the idea against the six fit stages from `references/fit-framework.md` (Pr
 
 ### Phase 3 — Research
 
-Ask **one question** to confirm depth before running anything — don't default to heavy, and don't silently assume: "Want a quick competitor scan, or should I go deeper with market sizing and a full report?" Then run it yourself with web_search/web_fetch. See `references/market-research-modes.md` for the light/medium/heavy workflow, the McKinsey-style 4-level pyramid structure, and the competitor/avatar/positioning method (this skill replicates the method inline — no external install needed):
+Ask **one question** to confirm depth before running anything — don't default to heavy, and don't silently assume: "Want a quick competitor scan, or should I go deeper with market sizing and a full report?" Then run it yourself with your web search and page-fetch tools (`WebSearch`/`WebFetch` in Claude Code, `web_search`/`web_fetch` in the claude.ai app). See `references/market-research-modes.md` for the light/medium/heavy workflow, the McKinsey-style 4-level pyramid structure, and the competitor/avatar/positioning method (this skill replicates the method inline — no external install needed):
 
 - **Light** (default): quick competitor scan, rough TAM sizing, 1-paragraph industry fit verdict.
 - **Medium**: positioning map, 3–5 competitor deep-dives, buyer-persona sketch.
@@ -80,9 +80,9 @@ Ask **one question** about which document to produce first rather than dumping a
 - **Lean Canvas** — use `references/lean-canvas.md`. Fill it from what's known, mark unknowns explicitly rather than inventing numbers.
 - **Customer interview question set** — Mom Test-compliant, from `references/interview-questions.md`, tailored to their specific idea.
 - **Market research brief** — output of Phase 3, formatted per `references/market-research-modes.md`.
-- **Positioning/competitor snapshot** — when competitors were researched, use `comparison_card_display_v0` or a short table.
+- **Positioning/competitor snapshot** — when competitors were researched, use a short markdown table (in the claude.ai app, `comparison_card_display_v0` works too if the attributes line up cleanly).
 
-Longer documents go in a markdown file artifact rather than a chat wall of text — see `references/output-documents.md`.
+Longer documents go in a saved markdown file rather than a chat wall of text (in Claude Code, write a `.md` file to the current folder and tell the founder its path; in the claude.ai app, use a file artifact) — see `references/output-documents.md`.
 
 ### Phase 5 — Verdict
 
