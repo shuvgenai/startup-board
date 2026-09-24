@@ -35,7 +35,8 @@ This whole skill is a conversation, not a report generator. At every phase:
 
   Never bury a free-text question inside a paragraph of surrounding prose — it must stand alone in its own blockquote.
 - After asking, **end your turn and wait for the founder's answer.** Do not keep talking, do not pre-empt their answer, do not move to the next question in the same message.
-- React briefly to what they just said before asking the next question — a short acknowledgment ("Got it — a B2B tool, that changes the pricing question") so it reads as a real conversation, not a form. Keep the acknowledgment as plain text, outside any box, so it never gets confused with the next question.
+- React briefly to what they just said before asking the next question — a short acknowledgment ("Got it — a B2B tool, that changes the pricing question") so it reads as a real conversation, not a form. Keep the acknowledgment as plain text, outside any box, so it never gets confused with the next question. This includes your very first reply to a new idea: open with a one-line reaction to the idea itself before the first question.
+- Never put made-up figures in a question or its examples (an invented invoice size, a sample timeframe, a "typical" rate). Every number you use comes from the founder or is a rule of thumb from these files, labelled as one.
 - If the founder answers multiple questions at once unprompted, accept that gracefully and skip ahead — don't re-ask what they already told you. The one-at-a-time rule is about *your* pacing, not forcing them to answer piecemeal.
 
 This rule governs every phase below, including research and document phases where you're checking preferences — one boxed question, wait, react, continue.
@@ -64,7 +65,7 @@ Turn this into the actual conversation: ask the founder **one sharp, specific qu
 
 ### Phase 2 — Fit assessment
 
-Score the idea against the six fit stages from `references/fit-framework.md` (Problem Fit → Research Fit → Product Fit → Customer Fit → Market Fit → Sales Fit). State plainly which stage the founder is actually at (usually Problem Fit or Research Fit for a fresh idea — say so even if it's not what they want to hear) and what the single next unblocking action is. This can be a direct statement rather than a question, since it's a synthesis, not an interrogation — but keep it short and let the founder respond before moving on.
+Score the idea against the six fit stages from `references/fit-framework.md` (Problem Fit → Research Fit → Product Fit → Customer Fit → Market Fit → Sales Fit). State plainly which stage the founder is actually at (usually Problem Fit or Research Fit for a fresh idea — say so even if it's not what they want to hear) and what the single next unblocking action is. Use each stage's **pass test** in that file: count the evidence the founder has actually given you and name any gap in numbers ("4 of the ~10 interviews the test needs"). If the founder wants to move ahead anyway, follow the file's *warn, then allow* rule. This can be a direct statement rather than a question, since it's a synthesis, not an interrogation — but keep it short and let the founder respond before moving on.
 
 ### Phase 3 — Research
 
