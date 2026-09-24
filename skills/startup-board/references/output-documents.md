@@ -11,6 +11,7 @@ Match the deliverable to how the founder will actually use it. Don't over-produc
 | Positioning/competitor snapshot | When 2–3+ competitors were researched | Short markdown table (in the claude.ai app, the `comparison_card_display_v0` tool also works if attributes line up cleanly) |
 | Full board verdict | End of every session | Inline chat — this is the synthesis, keep it conversational, not another document |
 | Progress file (`startup-board-progress.md`) | Created after the Phase 5 verdict; updated after Phases 9 and 10 and whenever a pass test changes | Saved file — format and rules in **Progress file** below |
+| Product/Market fit scorecard (`pmf-scorecard.md`) | End of Phase 9 | Saved file — format in **PMF scorecard** below |
 
 General rule: a one-time read (verdict, quick questions) stays inline; anything the founder will return to and iterate on (canvas, research brief) becomes a file.
 
@@ -43,3 +44,23 @@ Riskiest assumption: <one sentence>
 - Founder edits win: if the file differs from what you last wrote, trust the file.
 - Store only the idea, stage, verdict, riskiest assumption, the numbers the founder gave, and the next action.
 - When you save or update it, tell the founder the path in one line.
+
+## PMF scorecard
+
+```
+# Product/Market fit scorecard: <product> — YYYY-MM-DD
+> <gap stamp, only if built before an earlier stage was passed>
+Active user: <definition> · Natural rhythm: <daily | weekly | monthly>
+
+| Signal | Value | Real or estimated | Benchmark (rule of thumb) | Result |
+|---|---|---|---|---|
+| "Very disappointed" — all users | <x% of n responses> | Real | ≥40% from ~30+ responses | <Met | Not met | Directional> |
+| "Very disappointed" — <segment> | <x% of n responses> | Real | ≥40% from ~30+ responses | <…> |
+| Retention (<cohort>) | <period: % · period: %> | Real | Levels off above zero | <…> |
+| Pull | <x% of new users without founder push, trend> | Real | Present or growing | <…> |
+
+**Verdict:** <Not yet | In one segment — <segment> | Yes>
+**Why:** <2–3 sentences using the numbers above>
+**One next action:** <action>
+**Not measured yet:** <signal — measurement kit given> (omit this line if everything was measured)
+```

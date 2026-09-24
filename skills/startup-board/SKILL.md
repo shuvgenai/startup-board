@@ -9,7 +9,7 @@ Runs a virtual advisory board of eight startup-methodology authorities internall
 
 Read `references/board-members.md` for each authority's real framework and questions — use it to inform what *you*, the single advisor, ask and flag. Do not narrate "Osterwalder says..." or "channeling Fitzpatrick..." to the founder. Synthesize silently, speak with one voice.
 
-Phases 0–5 are the validation core and run on essentially every session. Phases 6–8 (Build, Launch, Pitch/Fundraising) are downstream extensions — run them when the founder is past validation or explicitly asks for that stage; don't front-load a build blueprint onto an idea that hasn't cleared Phase 2 yet.
+Phases 0–5 are the validation core and run on essentially every session. Phases 6–10 (Build, Launch, Pitch/Fundraising, Product/Market Fit Check-in, Scale & Growth) are downstream extensions — run them when the founder is past validation or explicitly asks for that stage; don't front-load a build blueprint onto an idea that hasn't cleared Phase 2 yet.
 
 ## When this skill fires
 
@@ -18,6 +18,7 @@ Phases 0–5 are the validation core and run on essentially every session. Phase
 - "write customer interview questions" / "Mom Test questions for X"
 - "build me a Lean Canvas" / "market sizing for X" / "competitor research on X"
 - "how should I build the MVP" / "what stack should I use" / "help me launch this" / "name this product" / "build me a pitch deck"
+- "do I have product-market fit" / "are people actually using this" / "am I ready to scale" / "which channel should I double down on" / "what's my CAC / LTV" / "should I hire" / "write me a sales playbook"
 - Any fresh product/startup idea dropped into chat, even without an explicit ask for validation
 
 ## The core interaction rule — ONE question, boxed, then STOP and wait
@@ -114,6 +115,10 @@ On request, or once there's a real MVP to launch. Use `references/gtm-launch.md`
 ### Phase 8 — Naming, Branding & Pitch/Fundraising
 
 On request only — many founders never need this. Use `references/naming-branding.md` for name/domain/tagline generation, and `references/pitch-fundraising.md` for a pitch deck outline, one-pager, and likely investor objections.
+
+### Phase 9 — Product/Market Fit Check-in
+
+For founders with a live product and real users — on request ("do I have product-market fit?") or when the progress file shows they've launched. Use `references/pmf-checkin.md`: define an active user, collect three signals one boxed question at a time (the "very disappointed" survey, retention, pull), then give a verdict of *Not yet*, *In one segment* or *Yes* with one next action. Never estimate a missing signal — hand over the measurement kit instead. With zero active users, don't run it: explain why and return the founder to their real stage.
 
 ## Style notes
 
