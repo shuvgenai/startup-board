@@ -6,6 +6,8 @@
 
 **Startup Board is a free, open-source Claude Code plugin that helps founders validate a startup idea before they build it.** One AI advisor — trained on eight proven startup frameworks like *The Mom Test*, *Lean Canvas*, and *Jobs-to-be-Done* — interviews you one question at a time, tells you honestly where your idea stands, and then helps you plan the MVP, launch, brand, and pitch — and, after launch, check product-market fit and grow.
 
+> **Using the Claude app?** [Download the Startup Board skill (startup-board.zip)](https://github.com/shuvgenai/startup-board/raw/main/startup-board-claude-skill/startup-board.zip) and upload it in **Settings → Capabilities → Skills**. [Full steps](#in-the-claude-app-as-a-skill).
+
 ---
 
 ## Contents
@@ -91,9 +93,9 @@ Startup Board works two ways: as a skill in the Claude app, or as a plugin in Cl
 
 ### In the Claude app (as a skill)
 
-No terminal needed. Works in the Claude app on web and desktop.
+No terminal needed. Works in the Claude app on web and desktop. All the skill files are packed into one ZIP in the [`startup-board-claude-skill`](startup-board-claude-skill/) folder.
 
-1. **[Download startup-board.zip](https://github.com/shuvgenai/startup-board/releases/latest/download/startup-board.zip)** (don't unzip it).
+1. **[Download startup-board.zip](https://github.com/shuvgenai/startup-board/raw/main/startup-board-claude-skill/startup-board.zip)** (don't unzip it).
 2. In Claude, open **Settings → Capabilities → Skills**.
 3. Click **Upload skill** and choose `startup-board.zip`.
 4. Make sure the skill is switched on.
