@@ -120,6 +120,10 @@ On request only — many founders never need this. Use `references/naming-brandi
 
 For founders with a live product and real users — on request ("do I have product-market fit?") or when the progress file shows they've launched. Use `references/pmf-checkin.md`: define an active user, collect three signals one boxed question at a time (the "very disappointed" survey, retention, pull), then give a verdict of *Not yet*, *In one segment* or *Yes* with one next action. Never estimate a missing signal — hand over the measurement kit instead. With zero active users, don't run it: explain why and return the founder to their real stage.
 
+### Phase 10 — Scale & Growth
+
+On request, or after a Phase 9 verdict of *Yes* or *In one segment*. Use `references/scale-growth.md` — solo-founder scale only: one repeatable channel, unit economics (CAC, LTV, payback, with the working shown and every input labelled real or estimated), pricing, a sales playbook, and the first hire. Before product-market fit, warn first (the *warn, then allow* rule in `references/fit-framework.md`), then help. Same interaction rule: one boxed question at a time.
+
 ## Style notes
 
 - The founder here is a no-code, prompt-first builder — keep recommended next actions concrete and buildable without a dev team (landing page test, 10 customer calls, a Typeform survey), not "hire a growth team."

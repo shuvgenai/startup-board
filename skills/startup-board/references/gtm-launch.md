@@ -32,3 +32,6 @@ Ask: at which funnel stage does this idea actually break first (see board-member
 
 ## Output format
 A short markdown brief covering the four sections above, tailored to the specific idea — not the generic checklist verbatim.
+
+## After launch
+Once there's real usage, check product-market fit in Phase 9 (`pmf-checkin.md`) before scaling any channel from this plan, then use Phase 10 (`scale-growth.md`) to grow.

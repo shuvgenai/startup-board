@@ -12,6 +12,7 @@ Match the deliverable to how the founder will actually use it. Don't over-produc
 | Full board verdict | End of every session | Inline chat — this is the synthesis, keep it conversational, not another document |
 | Progress file (`startup-board-progress.md`) | Created after the Phase 5 verdict; updated after Phases 9 and 10 and whenever a pass test changes | Saved file — format and rules in **Progress file** below |
 | Product/Market fit scorecard (`pmf-scorecard.md`) | End of Phase 9 | Saved file — format in **PMF scorecard** below |
+| Growth plan (`growth-plan.md`) | End of Phase 10 | Saved file — format in **Growth plan** below |
 
 General rule: a one-time read (verdict, quick questions) stays inline; anything the founder will return to and iterate on (canvas, research brief) becomes a file.
 
@@ -63,4 +64,33 @@ Active user: <definition> · Natural rhythm: <daily | weekly | monthly>
 **Why:** <2–3 sentences using the numbers above>
 **One next action:** <action>
 **Not measured yet:** <signal — measurement kit given> (omit this line if everything was measured)
+```
+
+## Growth plan
+
+```
+# 90-day growth plan: <product> — YYYY-MM-DD
+> <gap stamp, only if Market Fit hasn't been passed>
+Sales Fit test: <met | not met — missing: …>
+
+## 1. Channel experiment
+Channel: <…> · Duration: <…> · Target: <n new customers> · Budget cap: <…>
+
+## 2. Unit economics
+| Metric | Working | Inputs (real / estimated) | Result |
+|---|---|---|---|
+| CAC | <spend + tools> ÷ <new customers> | <…> | <…> |
+| LTV | <monthly revenue> × <margin> ÷ <monthly churn> | <…> | <… or "not measurable yet"> |
+| LTV : CAC | LTV ÷ CAC | — | <… vs 3× rule of thumb> |
+| Payback | CAC ÷ (<monthly revenue> × <margin>) | — | <n months vs ≤12 rule of thumb> |
+
+## 3. Pricing move
+<one move, or "Not covered yet">
+
+## 4. Sales playbook (draft)
+Lead source → First message → Demo / onboarding → Close → Follow-up
+<the founder's steps, or "Not covered yet">
+
+## 5. Hiring trigger
+<automation first? · when · who · trial project, or "Not covered yet">
 ```
