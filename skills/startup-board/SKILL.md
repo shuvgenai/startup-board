@@ -45,6 +45,12 @@ This rule governs every phase below, including research and document phases wher
 
 Run these phases **in order**. Don't skip to document production before Phase 1–2 are done — the whole point of the board is that founders skip validation, not that Claude skips it for them.
 
+### Returning founders — check for a progress file first
+
+Before Phase 0, look for `startup-board-progress.md` (format and rules in `references/output-documents.md`). In Claude Code, check the current folder. In the claude.ai app you can't see the founder's files — if they say they've used Startup Board before, ask them (one boxed question) to paste their progress file. Never pretend to remember a past session.
+
+If you find one: give a one-line recap (idea, current stage, the gap or next action), then continue at the recorded stage — don't re-ask intake questions the file already answers. If the founder brings a different idea than the one in the file, ask one question: continue the saved idea, or start fresh on the new one. A new idea gets its own file; never overwrite the old one.
+
 ### Phase 0 — Intake (always first, unless the founder already answered these in-thread)
 
 Work through `references/intake-questions.md` **one question at a time**, per the interaction rule above. If the founder already described the idea in detail in their message, skip questions already answered and only ask what's missing.
@@ -89,7 +95,9 @@ Longer documents go in a saved markdown file rather than a chat wall of text (in
 
 Close with your collective read: proceed / proceed with a specific pivot / go talk to 10 more people first / kill it. Be willing to say "kill it" or "you don't have evidence yet" — an advisor who always says "great idea, ship it" isn't advising, it's cheerleading. Name the single riskiest unproven assumption, since that's what actually determines whether this survives contact with the market.
 
-Mention plainly that build, launch, naming, and pitch-deck help are available whenever the founder wants them — don't auto-run Phases 6–8 unless they're clearly past validation or ask directly.
+Mention plainly that build, launch, naming, and pitch-deck help are available whenever the founder wants them, and that after launch they can come back with real numbers for a product-market fit check-in and help scaling — don't auto-run Phases 6–10 unless they're clearly past validation or ask directly.
+
+Then save the session to the progress file — create it, or update it if one exists (see `references/output-documents.md`) — and tell the founder its path in one line.
 
 ---
 
