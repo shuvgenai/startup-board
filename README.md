@@ -1,10 +1,10 @@
 # Startup Board — AI Startup Advisor for Idea Validation, Lean Canvas & Pitch Decks
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.1-green.svg)](.claude-plugin/plugin.json)
+[![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](.claude-plugin/plugin.json)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757.svg)](https://github.com/shuvgenai/startup-board)
 
-**Startup Board is a free, open-source Claude Code plugin that helps founders validate a startup idea before they build it.** One AI advisor — trained on eight proven startup frameworks like *The Mom Test*, *Lean Canvas*, and *Jobs-to-be-Done* — interviews you one question at a time, tells you honestly where your idea stands, and then helps you plan the MVP, launch, brand, and pitch.
+**Startup Board is a free, open-source Claude Code plugin that helps founders validate a startup idea before they build it.** One AI advisor — trained on eight proven startup frameworks like *The Mom Test*, *Lean Canvas*, and *Jobs-to-be-Done* — interviews you one question at a time, tells you honestly where your idea stands, and then helps you plan the MVP, launch, brand, and pitch — and, after launch, check product-market fit and grow.
 
 ---
 
@@ -44,13 +44,17 @@ Most founders skip validation and go straight to building. Startup Board is desi
 | **4. Documents** | Lean Canvas, Mom Test customer interview questions, research brief |
 | **5. Verdict** | Proceed, pivot, talk to more customers, or kill it — plus your single riskiest assumption |
 
-### Build, launch, and raise (when you're ready or when you ask)
+### Build, launch, raise, and grow (when you're ready or when you ask)
 
 | Phase | What you get |
 |---|---|
 | **6. MVP build blueprint** | A no-code / prompt-first stack, a tight MVP feature cut, a data model sketch, and ready-to-use build prompts |
 | **7. Go-to-market & launch** | Channels, positioning and messaging, pricing, and a launch-week checklist |
 | **8. Naming, branding & pitch** | Name and tagline ideas, a pitch deck outline, a one-pager, and likely investor objections |
+| **9. Product/Market fit check-in** | Bring your real numbers after launch — the "very disappointed" survey, retention, and word-of-mouth growth — and get a clear verdict: not yet, in one segment, or yes |
+| **10. Scale & growth** | One repeatable channel, customer acquisition cost vs lifetime value with the maths shown, pricing moves, a simple sales playbook, and when to make your first hire |
+
+Every stage has a clear "you've passed" test based on evidence, not opinions. Startup Board saves a small `startup-board-progress.md` file in your folder so it can pick up where you left off next time.
 
 ## The eight startup frameworks
 
@@ -83,6 +87,21 @@ It keeps going like this, one question at a time, until it has enough to give yo
 
 ## Install
 
+Startup Board works two ways: as a skill in the Claude app, or as a plugin in Claude Code.
+
+### In the Claude app (as a skill)
+
+No terminal needed. Works in the Claude app on web and desktop.
+
+1. **[Download startup-board.zip](https://github.com/shuvgenai/startup-board/releases/latest/download/startup-board.zip)** (don't unzip it).
+2. In Claude, open **Settings → Capabilities → Skills**.
+3. Click **Upload skill** and choose `startup-board.zip`.
+4. Make sure the skill is switched on.
+
+Then start a new chat and describe your idea.
+
+### In Claude Code (as a plugin)
+
 **Requires [Claude Code](https://docs.claude.com/en/docs/claude-code/overview).**
 
 Inside Claude Code, run:
@@ -112,6 +131,7 @@ Just describe your idea. You don't need to mention the plugin — it starts on i
 - "Do competitor research / market sizing for …"
 - "How should I build the MVP?"
 - "Help me launch this" / "Name this product" / "Build me a pitch deck"
+- "Do I have product-market fit?" / "How do I scale this?" / "What's my CAC and LTV?"
 
 ## FAQ
 
@@ -132,6 +152,12 @@ No. It's designed for no-code and prompt-first founders. Build plans use no-code
 
 **Will it just tell me my idea is great?**
 No. It's built to give honest verdicts, including "talk to 10 more customers first" or "kill it."
+
+**Can it tell me if I have product-market fit?**
+Yes. After launch, bring your numbers — survey results, retention, where new users come from — and it gives you a verdict (not yet, in one segment, or yes) and one next step. If you're missing a number, it shows you how to measure it instead of guessing.
+
+**Will it remember my idea next time?**
+Yes. It saves a short `startup-board-progress.md` file in your folder with your stage, verdict, and numbers, and reads it when you come back. You can open and edit it yourself.
 
 **Is it free?**
 Yes. Startup Board is open source under the MIT license. You need Claude Code to run it.
