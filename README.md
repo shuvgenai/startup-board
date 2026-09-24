@@ -87,6 +87,21 @@ It keeps going like this, one question at a time, until it has enough to give yo
 
 ## Install
 
+Startup Board works two ways: as a skill in the Claude app, or as a plugin in Claude Code.
+
+### In the Claude app (as a skill)
+
+No terminal needed. Works in the Claude app on web and desktop.
+
+1. **[Download startup-board.zip](https://github.com/shuvgenai/startup-board/releases/latest/download/startup-board.zip)** (don't unzip it).
+2. In Claude, open **Settings → Capabilities → Skills**.
+3. Click **Upload skill** and choose `startup-board.zip`.
+4. Make sure the skill is switched on.
+
+Then start a new chat and describe your idea.
+
+### In Claude Code (as a plugin)
+
 **Requires [Claude Code](https://docs.claude.com/en/docs/claude-code/overview).**
 
 Inside Claude Code, run:
